@@ -1,0 +1,1260 @@
+[2024-12-18T05:26:30.383+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:26:30.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:26:30.388+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:26:30.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:26:30.420+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:26:30.414+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:26:30.422+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:26:30.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.111 seconds
+[2024-12-18T05:27:01.583+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:01.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:27:01.586+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:27:01.585+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:01.599+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:27:01.596+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:27:01.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:01.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.053 seconds
+[2024-12-18T05:27:32.272+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:32.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:27:32.275+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:27:32.275+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:32.298+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:27:32.292+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:27:32.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:27:32.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.071 seconds
+[2024-12-18T05:28:02.908+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:02.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:28:02.910+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:28:02.909+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:02.921+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:28:02.918+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:28:02.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:02.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.044 seconds
+[2024-12-18T05:28:33.862+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:33.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:28:33.864+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:28:33.864+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:33.875+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:28:33.873+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:28:33.876+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:28:33.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.044 seconds
+[2024-12-18T05:29:04.834+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:04.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:29:04.836+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:29:04.835+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:04.847+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:29:04.844+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:29:04.848+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:04.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.046 seconds
+[2024-12-18T05:29:35.614+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:35.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T05:29:35.616+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:29:35.615+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:35.627+0000] {logging_mixin.py:190} INFO - [2024-12-18T05:29:35.625+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T05:29:35.629+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T05:29:35.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.047 seconds
+[2024-12-18T07:32:04.599+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:04.603+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:32:04.613+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:32:04.611+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:04.676+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:32:04.660+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:32:04.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:04.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.229 seconds
+[2024-12-18T07:32:35.681+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:35.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:32:35.684+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:32:35.684+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:35.703+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:32:35.698+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:32:35.706+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:32:35.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.069 seconds
+[2024-12-18T07:33:06.516+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:06.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:33:06.519+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:33:06.519+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:06.553+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:33:06.549+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:33:06.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:06.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.082 seconds
+[2024-12-18T07:33:37.243+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:37.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:33:37.246+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:33:37.246+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:37.259+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:33:37.256+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:33:37.261+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:33:37.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.060 seconds
+[2024-12-18T07:34:08.364+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:08.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:34:08.368+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:34:08.368+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:08.390+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:34:08.384+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:34:08.393+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:08.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.083 seconds
+[2024-12-18T07:34:39.305+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:39.306+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:34:39.308+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:34:39.307+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:39.323+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:34:39.319+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:34:39.324+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:34:39.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.057 seconds
+[2024-12-18T07:35:10.172+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:10.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:35:10.177+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:35:10.176+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:10.191+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:35:10.188+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:35:10.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:10.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.062 seconds
+[2024-12-18T07:35:41.121+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:41.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:35:41.126+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:35:41.126+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:41.151+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:35:41.145+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:35:41.153+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:35:41.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.090 seconds
+[2024-12-18T07:36:12.369+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:12.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:36:12.372+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:36:12.372+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:12.390+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:36:12.386+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:36:12.392+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:12.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.064 seconds
+[2024-12-18T07:36:42.518+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:42.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:36:42.521+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:36:42.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:42.538+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:36:42.534+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:36:42.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:36:42.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.061 seconds
+[2024-12-18T07:37:12.670+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:12.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:37:12.674+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:37:12.674+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:12.689+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:37:12.685+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:37:12.691+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:12.725+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.060 seconds
+[2024-12-18T07:37:43.541+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:43.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:37:43.544+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:37:43.543+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:43.560+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:37:43.555+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:37:43.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:37:43.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.062 seconds
+[2024-12-18T07:38:13.779+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:13.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:38:13.783+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:38:13.783+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:13.804+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:38:13.799+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:38:13.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:13.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.072 seconds
+[2024-12-18T07:38:44.821+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:44.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:38:44.825+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:38:44.824+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:44.846+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:38:44.841+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:38:44.848+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:38:44.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.081 seconds
+[2024-12-18T07:39:15.959+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:15.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:39:15.962+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:39:15.962+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:15.986+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:39:15.980+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:39:15.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:16.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.072 seconds
+[2024-12-18T07:39:47.105+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:47.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:39:47.109+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:39:47.109+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:47.128+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:39:47.123+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:39:47.130+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:39:47.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.068 seconds
+[2024-12-18T07:40:18.239+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:18.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:40:18.242+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:40:18.242+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:18.257+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:40:18.254+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:40:18.259+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:18.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.056 seconds
+[2024-12-18T07:40:49.207+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:49.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:40:49.211+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:40:49.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:49.237+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:40:49.232+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:40:49.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:40:49.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.087 seconds
+[2024-12-18T07:41:19.902+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:19.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:41:19.905+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:41:19.905+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:19.918+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:41:19.914+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:41:19.920+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:19.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.051 seconds
+[2024-12-18T07:41:50.701+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:50.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:41:50.705+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:41:50.705+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:50.725+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:41:50.721+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:41:50.727+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:41:50.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.077 seconds
+[2024-12-18T07:42:21.722+0000] {processor.py:186} INFO - Started process (PID=260) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:21.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:42:21.729+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:42:21.728+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:21.755+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:42:21.751+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:42:21.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:21.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.079 seconds
+[2024-12-18T07:42:52.383+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:52.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:42:52.388+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:42:52.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:52.408+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:42:52.404+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:42:52.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:42:52.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.070 seconds
+[2024-12-18T07:43:23.068+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:23.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:43:23.071+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:43:23.071+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:23.088+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:43:23.084+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:43:23.090+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:23.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.073 seconds
+[2024-12-18T07:43:53.889+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:53.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:43:53.893+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:43:53.892+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:53.911+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:43:53.906+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:43:53.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:43:53.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T07:44:24.572+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:24.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:44:24.575+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:44:24.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:24.594+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:44:24.589+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:44:24.596+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:24.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.067 seconds
+[2024-12-18T07:44:55.513+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:55.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:44:55.517+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:44:55.516+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:55.533+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:44:55.529+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:44:55.535+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:44:55.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.062 seconds
+[2024-12-18T07:45:26.349+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:26.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:45:26.352+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:45:26.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:26.368+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:45:26.365+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:45:26.370+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:26.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.061 seconds
+[2024-12-18T07:45:57.134+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:57.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:45:57.138+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:45:57.138+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:57.162+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:45:57.156+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:45:57.165+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:45:57.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.082 seconds
+[2024-12-18T07:46:28.115+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:28.116+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:46:28.118+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:46:28.118+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:28.137+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:46:28.133+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:46:28.139+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:28.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T07:46:58.379+0000] {processor.py:186} INFO - Started process (PID=350) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:58.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:46:58.382+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:46:58.382+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:58.396+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:46:58.392+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:46:58.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:46:58.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.055 seconds
+[2024-12-18T07:47:29.868+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:47:29.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:47:29.872+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:47:29.872+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:47:29.892+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:47:29.887+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:47:29.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:47:29.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.068 seconds
+[2024-12-18T07:48:00.369+0000] {processor.py:186} INFO - Started process (PID=370) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:00.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:48:00.373+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:48:00.372+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:00.390+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:48:00.386+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:48:00.392+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:00.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.063 seconds
+[2024-12-18T07:48:30.610+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:30.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:48:30.614+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:48:30.613+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:30.630+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:48:30.627+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:48:30.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:48:30.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.063 seconds
+[2024-12-18T07:49:01.449+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:01.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:49:01.453+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:49:01.453+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:01.471+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:49:01.467+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:49:01.473+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:01.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.068 seconds
+[2024-12-18T07:49:32.865+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:32.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:49:32.868+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:49:32.868+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:32.883+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:49:32.880+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:49:32.884+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:49:32.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.061 seconds
+[2024-12-18T07:50:04.214+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:04.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:50:04.218+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:50:04.217+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:04.233+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:50:04.230+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:50:04.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:04.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.065 seconds
+[2024-12-18T07:50:34.617+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:34.618+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:50:34.620+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:50:34.620+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:34.634+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:50:34.631+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:50:34.637+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:50:34.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.059 seconds
+[2024-12-18T07:51:05.571+0000] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:05.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:51:05.575+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:51:05.574+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:05.592+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:51:05.588+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:51:05.594+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:05.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.070 seconds
+[2024-12-18T07:51:36.747+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:36.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:51:36.751+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:51:36.750+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:36.762+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:51:36.760+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:51:36.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:51:36.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.052 seconds
+[2024-12-18T07:52:07.799+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:07.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:52:07.803+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:52:07.803+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:07.820+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:52:07.816+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:52:07.821+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:07.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.064 seconds
+[2024-12-18T07:52:39.250+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:39.251+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:52:39.255+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:52:39.254+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:39.277+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:52:39.272+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:52:39.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:52:39.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.091 seconds
+[2024-12-18T07:53:10.475+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:10.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:53:10.480+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:53:10.479+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:10.504+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:53:10.500+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:53:10.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:10.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.080 seconds
+[2024-12-18T07:53:41.349+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:41.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:53:41.352+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:53:41.352+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:41.372+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:53:41.368+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:53:41.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:53:41.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T07:54:12.319+0000] {processor.py:186} INFO - Started process (PID=490) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:12.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:54:12.322+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:54:12.321+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:12.337+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:54:12.334+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:54:12.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:12.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.055 seconds
+[2024-12-18T07:54:43.423+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:43.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:54:43.427+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:54:43.426+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:43.444+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:54:43.439+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:54:43.446+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:54:43.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.179 seconds
+[2024-12-18T07:55:14.241+0000] {processor.py:186} INFO - Started process (PID=510) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:14.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:55:14.245+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:55:14.244+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:14.263+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:55:14.259+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:55:14.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:14.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T07:55:44.917+0000] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:44.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:55:44.921+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:55:44.920+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:44.939+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:55:44.935+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:55:44.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:55:44.978+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T07:56:15.782+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:15.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:56:15.786+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:56:15.785+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:15.802+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:56:15.798+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:56:15.804+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:15.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.065 seconds
+[2024-12-18T07:56:50.501+0000] {processor.py:186} INFO - Started process (PID=540) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:50.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:56:50.506+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:56:50.506+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:50.540+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:56:50.534+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:56:50.543+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:56:50.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.116 seconds
+[2024-12-18T07:57:20.981+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:20.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:57:20.985+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:57:20.985+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:21.012+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:57:21.006+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:57:21.014+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:21.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.084 seconds
+[2024-12-18T07:57:51.518+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:51.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:57:51.522+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:57:51.521+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:51.537+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:57:51.533+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:57:51.538+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:57:51.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.057 seconds
+[2024-12-18T07:58:39.091+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:58:39.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:58:39.099+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:58:39.098+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:58:39.144+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:58:39.134+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:58:39.149+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:58:39.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.153 seconds
+[2024-12-18T07:59:10.200+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:10.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:59:10.204+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:59:10.204+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:10.227+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:59:10.222+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:59:10.229+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:10.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.082 seconds
+[2024-12-18T07:59:41.119+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:41.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T07:59:41.124+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:59:41.123+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:41.146+0000] {logging_mixin.py:190} INFO - [2024-12-18T07:59:41.141+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T07:59:41.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T07:59:41.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.080 seconds
+[2024-12-18T08:00:12.332+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:12.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:00:12.337+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:00:12.337+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:12.357+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:00:12.353+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:00:12.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:12.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.077 seconds
+[2024-12-18T08:00:43.392+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:43.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:00:43.395+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:00:43.395+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:43.413+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:00:43.409+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:00:43.415+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:00:43.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T08:01:13.842+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:13.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:01:13.845+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:01:13.845+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:13.860+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:01:13.857+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:01:13.861+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:13.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.054 seconds
+[2024-12-18T08:01:44.922+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:44.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:01:44.925+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:01:44.925+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:44.946+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:01:44.941+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:01:44.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:01:44.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.075 seconds
+[2024-12-18T08:02:15.560+0000] {processor.py:186} INFO - Started process (PID=141) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:15.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:02:15.564+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:02:15.563+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:15.585+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:02:15.580+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:02:15.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:15.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.076 seconds
+[2024-12-18T08:02:45.845+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:45.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:02:45.849+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:02:45.849+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:45.872+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:02:45.867+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:02:45.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:02:45.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.093 seconds
+[2024-12-18T08:03:17.904+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:17.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:03:17.907+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:03:17.907+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:17.928+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:03:17.924+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:03:17.931+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:17.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.074 seconds
+[2024-12-18T08:03:49.569+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:49.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:03:49.572+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:03:49.572+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:49.591+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:03:49.587+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:03:49.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:03:49.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.073 seconds
+[2024-12-18T08:04:20.738+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:20.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:04:20.741+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:04:20.740+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:20.758+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:04:20.753+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:04:20.760+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:20.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.065 seconds
+[2024-12-18T08:04:51.432+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:51.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:04:51.435+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:04:51.435+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:51.447+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:04:51.444+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:04:51.448+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:04:51.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.050 seconds
+[2024-12-18T08:05:22.534+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:22.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:05:22.539+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:05:22.539+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:22.574+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:05:22.566+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:05:22.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:22.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.143 seconds
+[2024-12-18T08:05:53.407+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:53.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:05:53.410+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:05:53.410+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:53.426+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:05:53.422+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:05:53.428+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:05:53.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.061 seconds
+[2024-12-18T08:06:24.276+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:24.278+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:06:24.281+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:06:24.280+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:24.300+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:06:24.297+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:06:24.302+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:24.341+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.072 seconds
+[2024-12-18T08:06:54.938+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:54.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:06:54.940+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:06:54.940+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:54.957+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:06:54.953+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:06:54.959+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:06:54.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.060 seconds
+[2024-12-18T08:07:25.726+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:25.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:07:25.730+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:07:25.730+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:25.754+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:07:25.750+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:07:25.757+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:25.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.082 seconds
+[2024-12-18T08:07:57.097+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:57.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:07:57.099+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:07:57.099+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:57.113+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:07:57.111+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:07:57.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:07:57.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.051 seconds
+[2024-12-18T08:08:28.127+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:28.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:08:28.131+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:08:28.131+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:28.152+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:08:28.148+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:08:28.155+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:28.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.077 seconds
+[2024-12-18T08:08:58.673+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:58.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:08:58.678+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:08:58.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:58.702+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:08:58.697+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:08:58.705+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:08:58.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.083 seconds
+[2024-12-18T08:09:29.525+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:09:29.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:09:29.529+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:09:29.528+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:09:29.549+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:09:29.545+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:09:29.551+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:09:29.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.066 seconds
+[2024-12-18T08:10:00.811+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:00.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:10:00.815+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:10:00.814+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:00.828+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:10:00.825+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:10:00.829+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:00.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.057 seconds
+[2024-12-18T08:10:32.026+0000] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:32.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:10:32.029+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:10:32.029+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:32.042+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:10:32.039+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:10:32.043+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:10:32.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.052 seconds
+[2024-12-18T08:11:03.563+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:03.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:11:03.567+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:11:03.566+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:03.591+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:11:03.586+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:11:03.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:03.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.078 seconds
+[2024-12-18T08:11:34.147+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:34.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:11:34.150+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:11:34.150+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:34.162+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:11:34.160+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:11:34.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:11:34.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.050 seconds
+[2024-12-18T08:12:04.921+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:04.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:12:04.925+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:12:04.925+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:04.945+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:12:04.940+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:12:04.947+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:04.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.075 seconds
+[2024-12-18T08:12:35.675+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:35.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:12:35.678+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:12:35.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:35.690+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:12:35.688+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:12:35.692+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:12:35.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.050 seconds
+[2024-12-18T08:13:06.551+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:06.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:13:06.558+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:13:06.556+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:06.572+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:13:06.569+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:13:06.573+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:06.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.056 seconds
+[2024-12-18T08:13:37.609+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:37.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:13:37.612+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:13:37.611+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:37.629+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:13:37.625+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:13:37.631+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:13:37.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.069 seconds
+[2024-12-18T08:14:08.567+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:08.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:14:08.572+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:14:08.572+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:08.596+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:14:08.590+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:14:08.599+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:08.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.091 seconds
+[2024-12-18T08:14:47.848+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:47.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/MergeFile.py for tasks to queue
+[2024-12-18T08:14:47.863+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:14:47.861+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:47.999+0000] {logging_mixin.py:190} INFO - [2024-12-18T08:14:47.977+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/MergeFile.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/MergeFile.py", line 3, in <module>
+    from pyspark.sql import SparkSession
+ModuleNotFoundError: No module named 'pyspark'
+[2024-12-18T08:14:48.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/MergeFile.py
+[2024-12-18T08:14:48.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/MergeFile.py took 0.353 seconds

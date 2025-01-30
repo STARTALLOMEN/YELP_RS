@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: dim_business
+    description: "business"
+    columns:
+      - name: business_id
+        description: "business id"
+      - name: name
+        description: "business name"
+  - name: dim_user
+    description: "user"
+    columns:
+      - name: user_id
+        description: "user id"
+      - name: name
+        description: "username"
+  - name: dim_checkin
+    description: "checkin"
+    columns:
+      - name: checkin_id
+        description: "category id"
+  - name: dim_category
+    description: "category"
+    columns:
+      - name: category_id
+        description: "category id"
+  - name: dim_location
+    description: "location"
+  - name: fact_review
+    description: "review"

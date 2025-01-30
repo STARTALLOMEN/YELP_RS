@@ -1,0 +1,147 @@
+[2024-12-13T00:34:07.346+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:07.347+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:34:07.350+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:07.350+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:08.221+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:08.363+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.362+0000] {override.py:1858} INFO - Created Permission View: can edit on DAG:amazon_product_scraper5
+[2024-12-13T00:34:08.394+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.393+0000] {override.py:1858} INFO - Created Permission View: can read on DAG:amazon_product_scraper5
+[2024-12-13T00:34:08.420+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.419+0000] {override.py:1858} INFO - Created Permission View: can delete on DAG:amazon_product_scraper5
+[2024-12-13T00:34:08.420+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.420+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:34:08.585+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.584+0000] {dag.py:3234} INFO - Creating ORM DAG for amazon_product_scraper5
+[2024-12-13T00:34:08.595+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:08.595+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:34:08.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 1.309 seconds
+[2024-12-13T00:34:39.386+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:39.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:34:39.389+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:39.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:39.691+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:34:39.711+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:39.711+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:34:39.730+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:34:39.729+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:34:39.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.391 seconds
+[2024-12-13T00:35:10.565+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:10.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:35:10.569+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:10.568+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:10.880+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:10.900+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:10.900+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:35:10.920+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:10.920+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:35:11.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.522 seconds
+[2024-12-13T00:35:41.490+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:41.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:35:41.492+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:41.492+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:41.791+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:35:41.810+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:41.809+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:35:41.947+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:35:41.947+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:35:41.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.496 seconds
+[2024-12-13T00:36:12.731+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:12.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:36:12.734+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:12.734+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:13.099+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:13.118+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:13.118+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:36:13.135+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:13.135+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:36:13.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.448 seconds
+[2024-12-13T00:36:44.031+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:44.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:36:44.034+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:44.034+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:44.476+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:36:44.494+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:44.494+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:36:44.509+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:36:44.509+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:36:44.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.516 seconds
+[2024-12-13T00:37:14.662+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:14.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:37:14.665+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:14.665+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:15.085+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:15.102+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:15.102+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:37:15.119+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:15.119+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:37:15.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.500 seconds
+[2024-12-13T00:37:45.754+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:45.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:37:45.757+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:45.756+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:46.192+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:37:46.208+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:46.208+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:37:46.224+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:37:46.224+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:37:46.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.508 seconds
+[2024-12-13T00:38:16.945+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:16.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:38:16.948+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:16.947+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:17.372+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:17.389+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:17.389+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:38:17.405+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:17.404+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:38:17.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.504 seconds
+[2024-12-13T00:38:48.156+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:48.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:38:48.161+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:48.160+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:48.610+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:38:48.626+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:48.626+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:38:48.642+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:38:48.642+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:38:48.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.527 seconds
+[2024-12-13T00:39:19.209+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:19.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:39:19.211+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:19.211+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:19.637+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:19.654+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:19.653+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:39:19.671+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:19.671+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:39:19.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.501 seconds
+[2024-12-13T00:39:50.364+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:50.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:39:50.367+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:50.366+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:50.806+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:39:50.822+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:50.822+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:39:50.839+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:39:50.839+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:39:50.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.516 seconds
+[2024-12-13T00:40:26.080+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:26.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:40:26.085+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:26.084+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:26.497+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:26.521+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:26.521+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:40:26.548+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:26.548+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:40:26.588+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.515 seconds
+[2024-12-13T00:40:57.000+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:57.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:40:57.005+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:57.004+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:57.363+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:40:57.384+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:57.383+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:40:57.406+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:40:57.406+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:40:57.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.449 seconds
+[2024-12-13T00:41:34.900+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:41:34.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:41:34.906+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:41:34.905+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:41:35.360+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:41:35.388+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:41:35.388+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:41:35.419+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:41:35.419+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:41:35.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.577 seconds
+[2024-12-13T00:42:05.721+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:05.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:42:05.725+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:05.725+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:06.143+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:06.178+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:06.177+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:42:06.210+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:06.209+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:42:06.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.555 seconds
+[2024-12-13T00:42:36.763+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:36.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:42:36.765+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:36.765+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:37.141+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:42:37.166+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:37.166+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:42:37.191+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:42:37.191+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:42:37.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 0.658 seconds
+[2024-12-13T00:43:12.656+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:12.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:43:12.664+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:12.663+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:13.898+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:13.994+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:13.993+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:43:14.094+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:14.094+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:43:14.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 1.567 seconds
+[2024-12-13T00:43:21.990+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:21.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:43:21.998+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:21.997+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:22.963+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:43:23.494+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:23.493+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:43:23.537+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:43:23.537+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:43:23.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 1.689 seconds
+[2024-12-13T00:46:33.145+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:46:33.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:46:33.151+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:46:33.151+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:46:34.829+0000] {processor.py:925} INFO - DAG(s) 'amazon_product_scraper5' retrieved from /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:46:35.110+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:46:35.109+0000] {dag.py:3211} INFO - Sync 1 DAGs
+[2024-12-13T00:46:35.171+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:46:35.171+0000] {dag.py:4138} INFO - Setting next_dagrun for amazon_product_scraper5 to 2024-12-12 00:00:00+00:00, run_after=2024-12-19 00:00:00+00:00
+[2024-12-13T00:46:35.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/AmazonAirflow5.py took 2.233 seconds
+[2024-12-13T00:48:03.942+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/AmazonAirflow5.py
+[2024-12-13T00:48:03.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/AmazonAirflow5.py for tasks to queue
+[2024-12-13T00:48:03.975+0000] {logging_mixin.py:190} INFO - [2024-12-13T00:48:03.972+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/AmazonAirflow5.py

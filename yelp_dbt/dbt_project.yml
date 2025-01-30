@@ -1,0 +1,20 @@
+name: 'yelp_project'
+version: '1.0.0'
+profile: 'yelp_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  yelp_project:
+    +database: "{{ target.database }}" 
+    +schema: "{{ target.schema }}"
