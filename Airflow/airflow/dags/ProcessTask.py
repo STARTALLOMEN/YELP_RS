@@ -24,7 +24,7 @@ dag = DAG(
     catchup=False
 )
 
-# Task 1: Process Business Data to Gold
+
 process_business_gold = SparkSubmitOperator(
     task_id='process_business_gold',
     application='scripts/business_to_gold.py',
@@ -32,7 +32,7 @@ process_business_gold = SparkSubmitOperator(
     dag=dag
 )
 
-# Task 2: Process Reviews Data to Gold
+
 process_reviews_gold = SparkSubmitOperator(
     task_id='process_reviews_gold',
     application='scripts/reviews_to_gold.py',
@@ -40,7 +40,6 @@ process_reviews_gold = SparkSubmitOperator(
     dag=dag
 )
 
-# Task 3: Process Users Data to Gold
 process_users_gold = SparkSubmitOperator(
     task_id='process_users_gold',
     application='scripts/users_to_gold.py',
@@ -48,24 +47,23 @@ process_users_gold = SparkSubmitOperator(
     dag=dag
 )
 
-# Task 4: Create Training Dataset
+
 def create_training_dataset():
     spark = SparkSession.builder \
         .appName("Create Training Dataset") \
         .config("spark.jars.packages", "io.delta:delta-core_2.12:3.1.0") \
         .getOrCreate()
-    
-    # Load Gold data
+
     business_features = spark.read.format("delta").load("delta_lake/gold/business_features")
     user_features = spark.read.format("delta").load("delta_lake/gold/user_features")
     review_features = spark.read.format("delta").load("delta_lake/gold/review_features")
     
-    # Join and prepare training data
+
     training_data = review_features \
         .join(business_features, "business_id") \
         .join(user_features, "user_id")
     
-    # Save training dataset
+
     training_data.write.format("delta") \
         .mode("overwrite") \
         .save("delta_lake/gold/training_data")
@@ -76,7 +74,7 @@ create_training_task = PythonOperator(
     dag=dag
 )
 
-# Task 5: Train Model
+
 def train_model():
     spark = SparkSession.builder \
         .appName("Train Recommendation Model") \
@@ -108,7 +106,6 @@ train_model_task = PythonOperator(
     dag=dag
 )
 
-# Task 6: Evaluate Model
 def evaluate_model():
     spark = SparkSession.builder \
         .appName("Evaluate Model") \
