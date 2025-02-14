@@ -5,7 +5,7 @@ import time
 from datetime import datetime
 
 # Yelp API Configuration
-YELP_API_KEY = 'YOUR_API_KEY'
+YELP_API_KEY = 'bOgkY5P2ZnDGKlehO07tAcbksCgQp1bLMdpPTHtxzdy8Bbv0t-mJTVbbN5ykGYULnjMOfVtRDNwo3Wr_K0qkdCk18I2tNEJec9azde7KSmBSSNOqwufkwK18BPCRZ3Yx'
 YELP_ENDPOINT = 'https://api.yelp.com/v3/businesses/search'
 HEADERS = {'Authorization': f'Bearer {YELP_API_KEY}'}
 
