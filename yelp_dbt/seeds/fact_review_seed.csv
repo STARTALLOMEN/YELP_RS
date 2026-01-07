@@ -1,0 +1,7 @@
+review_id,user_id,business_id,stars,useful,funny,cool,text,date
+r001,u001,b001,5,2,0,1,Great tacos!,2024-01-15
+r002,u002,b001,4,1,0,0,Good food,2024-01-16
+r003,u001,b002,4,0,0,0,Nice pizza,2024-01-17
+r004,u003,b003,5,3,1,2,Best sushi ever,2024-01-18
+r005,u004,b004,3,0,0,0,Average burger,2024-01-19
+r006,u005,b002,4,1,0,1,Love this place,2024-01-20

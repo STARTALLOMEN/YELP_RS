@@ -30,13 +30,13 @@ Repo rõ ràng, người mới có thể hiểu data flow trong 5 phút.
 
 ---
 ## 3. Spark / ETL (Bronze → Silver → Gold)
-- [ ] Tạo chuẩn pipeline module hóa: `ingest -> clean -> enrich -> publish`
-- [ ] Chuẩn hoá đặt tên bảng Delta: `bronze.*`, `silver.*`, `gold.*`
+- [x] Tạo chuẩn pipeline module hóa: `ingest -> clean -> enrich -> publish`
+- [x] Chuẩn hoá đặt tên bảng Delta: `bronze.*`, `silver.*`, `gold.*`
 - [x] Thêm metadata cột: `_ingest_ts`, `_batch_id`, `_source`
 - [x] Thêm incremental load (không overwrite toàn bộ) (merge into Delta for all Silver tables)
 - [x] Bật/kiểm tra cấu hình: AQE, optimizeWrite, autoCompact (set in `processing/common/spark_session.py`)
-- [ ] Thêm `OPTIMIZE` / `VACUUM` schedule (Airflow)
-- [ ] Partition strategy đánh giá lại (tránh skew state)
+- [x] Thêm `OPTIMIZE` / `VACUUM` schedule (Airflow)
+- [x] Partition strategy đánh giá lại (tránh skew state)
 - [ ] Tách rộng bảng attributes thành struct hoặc bảng phụ (giảm chiều rộng)
 
 ### Acceptance Criteria
@@ -44,10 +44,10 @@ Chạy lại full pipeline không lỗi, incremental xử lý đúng, dung lư�
 
 ---
 ## 4. Streaming / Kafka
-- [ ] Thêm retry + exponential backoff chuẩn
-- [ ] Thêm logging chuẩn JSON cho producer
-- [ ] Schema contract (Avro/JSON Schema) + registry (nếu mở rộng)
-- [ ] Ghi offset / checkpoint chuẩn (Structured Streaming consumer)
+- [x] Thêm retry + exponential backoff chuẩn
+- [x] Thêm logging chuẩn JSON cho producer
+- [x] Schema contract (Avro/JSON Schema) + registry (nếu mở rộng)
+- [x] Ghi offset / checkpoint chuẩn (Structured Streaming consumer)
 - [ ] Tối ưu rate-limit theo quota Yelp
 - [ ] Thêm cảnh báo khi rỗng dữ liệu > N chu kỳ
 
@@ -56,12 +56,12 @@ Producer không rơi silent fail, có giám sát rate / error.
 
 ---
 ## 5. Airflow Orchestration
-- [ ] Viết DAG hoàn chỉnh: ingestion → bronze → silver → gold → feature → train → evaluate → register → serve
-- [ ] Thêm dependency rõ ràng (>>)
-- [ ] Thêm SLA + email/Slack alert
-- [ ] Dùng `Variables` / `Connections` thay hard-code
-- [ ] Logging task rõ ràng + XCom cho metrics
-- [ ] Thêm sensor kiểm tra availability dữ liệu trước khi run
+- [x] Viết DAG hoàn chỉnh: ingestion → bronze → silver → gold → feature → train → evaluate → register → serve
+- [x] Thêm dependency rõ ràng (>>)
+- [x] Thêm SLA + email/Slack alert
+- [x] Dùng `Variables` / `Connections` thay hard-code
+- [x] Logging task rõ ràng + XCom cho metrics
+- [x] Thêm sensor kiểm tra availability dữ liệu trước khi run
 
 ### Acceptance Criteria
 DAG chạy end-to-end có thể tái chạy idempotent.
@@ -249,7 +249,10 @@ Thành viên mới thiết lập môi trường < 30 phút.
 ## Nhật ký Đánh dấu (log)
 | Ngày | Mục đã hoàn thành | Commit/PR |
 |------|--------------------|-----------|
-|      |                    |           |
+| 2025-01-08 | Task 3.3-3.4: Pipeline modularization & naming standardization | Enhanced framework |
+| 2025-01-08 | Task 3.5-3.6: OPTIMIZE/VACUUM schedule & partition strategy | Delta optimization |
+| 2025-01-08 | Task 4: Streaming/Kafka enhancements | Enhanced producer/consumer |
+| 2025-01-08 | Task 5: Complete Airflow orchestration DAG | End-to-end pipeline |
 
 ---
 

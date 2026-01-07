@@ -1,31 +1,177 @@
 version: 2
 
 models:
+  # =============================================================================
+  # DIMENSION: Business
+  # =============================================================================
   - name: dim_business
-    description: "business"
+    description: "Dimension table containing Yelp business information"
     columns:
       - name: business_id
-        description: "business id"
+        description: "Unique identifier for the business"
+        tests:
+          - unique
+          - not_null
+
       - name: name
-        description: "business name"
+        description: "Business name"
+        tests:
+          - not_null
+
+      - name: city
+        description: "City where business is located"
+
+      - name: state
+        description: "State where business is located"
+
+      - name: stars
+        description: "Average star rating (1.0 to 5.0)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+
+      - name: review_count
+        description: "Total number of reviews"
+        tests:
+          - not_null
+
+      - name: is_open
+        description: "1 = open, 0 = closed"
+        tests:
+          - accepted_values:
+              values: [0, 1]
+
+  # =============================================================================
+  # DIMENSION: User
+  # =============================================================================
   - name: dim_user
-    description: "user"
+    description: "Dimension table containing Yelp user information"
     columns:
       - name: user_id
-        description: "user id"
+        description: "Unique identifier for the user"
+        tests:
+          - unique
+          - not_null
+
       - name: name
-        description: "username"
-  - name: dim_checkin
-    description: "checkin"
-    columns:
-      - name: checkin_id
-        description: "category id"
+        description: "User display name"
+        tests:
+          - not_null
+
+      - name: review_count
+        description: "Total reviews written by user"
+
+      - name: average_stars
+        description: "Average rating given by user"
+
+  # =============================================================================
+  # DIMENSION: Category
+  # =============================================================================
   - name: dim_category
-    description: "category"
+    description: "Dimension table for business categories"
     columns:
       - name: category_id
-        description: "category id"
+        description: "Unique identifier for category record"
+        tests:
+          - unique
+          - not_null
+
+      - name: business_id
+        description: "Reference to dim_business"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_business')
+              field: business_id
+
+  # =============================================================================
+  # DIMENSION: Location
+  # =============================================================================
   - name: dim_location
-    description: "location"
+    description: "Dimension table for business locations"
+    columns:
+      - name: business_id
+        description: "Reference to dim_business"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_business')
+              field: business_id
+
+      - name: city
+        description: "City name"
+
+      - name: state
+        description: "State code"
+
+  # =============================================================================
+  # DIMENSION: Checkin
+  # =============================================================================
+  - name: dim_checkin
+    description: "Dimension table for business check-ins"
+    columns:
+      - name: checkin_id
+        description: "Unique identifier for checkin record"
+        tests:
+          - unique
+          - not_null
+
+      - name: business_id
+        description: "Reference to dim_business"
+        tests:
+          - relationships:
+              to: ref('dim_business')
+              field: business_id
+
+  # =============================================================================
+  # FACT: Review
+  # =============================================================================
   - name: fact_review
-    description: "review"
+    description: "Fact table containing all reviews"
+    columns:
+      - name: review_id
+        description: "Unique identifier for the review"
+        tests:
+          - unique
+          - not_null
+
+      - name: user_id
+        description: "User who wrote the review"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_user')
+              field: user_id
+
+      - name: business_id
+        description: "Business being reviewed"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_business')
+              field: business_id
+
+      - name: stars
+        description: "Star rating given (1-5)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4, 5]
+
+      - name: date
+        description: "Date of the review"
+        tests:
+          - not_null
+
+      - name: text
+        description: "Review text content"
+
+      - name: useful
+        description: "Number of useful votes"
+
+      - name: funny
+        description: "Number of funny votes"
+
+      - name: cool
+        description: "Number of cool votes"

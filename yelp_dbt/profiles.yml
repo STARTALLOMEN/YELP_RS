@@ -4,19 +4,11 @@ yelp_project:
     dev:
       type: sqlserver
       driver: "ODBC Driver 18 for SQL Server"
-      server: "is402server.database.windows.net"
-      database: "is402db"
-      schema: "dbo"
-      user: "trieu"
-      password: "Admin003@"
+      server: "{{ env_var('DBT_SERVER') }}"
       port: 1433
-      trust_cert: True
-
-    spark:
-      type: spark
-      host: "https://adb-1192907376890899.19.azuredatabricks.net"
-      http_path: "sql/protocolv1/o/1192907376890899/1130-201538-nhydu9vz"
-      token: "dapia15faa9e0f232350b3844d69aa601ee8"
-      catalog: "is402"
-      schema: "default"
-      threads: 1
+      database: "{{ env_var('DBT_DATABASE') }}"
+      schema: dbo
+      user: "{{ env_var('DBT_USER') }}"
+      password: "{{ env_var('DBT_PASSWORD') }}"
+      encrypt: true
+      trust_cert: true
