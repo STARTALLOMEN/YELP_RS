@@ -1,14 +1,8 @@
-WITH source_data AS (
-    SELECT *
-    FROM dim_user
-)
+{{ config(materialized='view') }}
+
 SELECT
     user_id,
     name,
     review_count,
-    yelping_since,
-    useful,
-    funny,
-    cool,
-    elite
-FROM source_data;
+    average_stars
+FROM {{ ref('dim_user_seed') }}

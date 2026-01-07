@@ -1,0 +1,40 @@
+- **Path Management**: Use absolute paths or robust dynamic path construction (e.g., `pathlib`). Avoid relative strings like "../../data".
+- **Optimization**: Always consider `optimizeWrite` and `autoCompact` for Delta tables.
+
+## 3. Professional Coding Standards (Python)
+- **Type Hinting**: All function signatures MUST have Python 3.10+ type hints.
+    - Example: `def process_data(df: DataFrame, batch_id: str) -> DataFrame:`
+- **Docstrings**: Use Google-style docstrings for all modules, classes, and public functions.
+    - Include `Args:`, `Returns:`, and `Raises:` sections.
+- **Error Handling**: Catch specific exceptions (e.g., `AnalysisException`, `ValueError`), never bare `except:`.
+- **Modularity**: Code should be organized into modules (`src/`, `components/`). Avoid giant scripts.
+
+## 4. API Development (FastAPI)
+- **Response Models**: All Endpoints must define a `response_model`.
+- **Async**: Use `async def` for I/O bound routes (DB, external API), but standard `def` for CPU bound (DataFrame operations) if running in threadpool is better, or use background tasks.
+- **Versioning**: API routes should be versioned (e.g., `/api/v1/...`).
+
+## 5. Workflow & Testing
+- **Test-Driven**: When fixing a bug, write a test case that reproduces it first.
+- **Validation**: Before declaring a task complete, verify the build/run works locally.
+- **Logging**: Use `structlog` or standard `logging`. Do not use `print()` in production code.
+- **Execution Protocol**: DO NOT auto-run complex terminal commands (like running scripts/builds). PROPOSE the command strings in markdown for the user to copy-paste. Only auto-run trivial checks (ls, dir, echo) if necessary for context.
+
+## 6. Documentation & Mentorship
+- **Development Journal**: Always maintain logs in docs/DEV_JOURNAL.md. Record WHAT you did, WHY you chose that approach, errors encountered, and how you fixed them.
+- **Explain Like I'm a Junior**: When ignoring a standard practice (like skipping Spark for Pandas), explain the trade-off clearly.
+
+## 7. dbt Setup & Troubleshooting
+- **Adapter Conflicts**: dbt adapters (fabric, sqlserver, databricks) often conflict. Use ONE adapter only.
+- **Installation Order**: Always install adapter package FIRST (e.g., `pip install dbt-sqlserver`), it will pull correct dbt-core version.
+- **Clean Install**: If adapter errors occur, uninstall ALL dbt packages first:
+    ```
+    pip uninstall dbt-core dbt-sqlserver dbt-fabric dbt-databricks -y
+    pip install dbt-sqlserver
+    ```
+- **profiles.yml Security**: NEVER commit passwords. Use environment variables:
+    ```yaml
+    password: "{{ env_var('DBT_PASSWORD') }}"
+    ```
+- **Connection Test**: Always run `dbt debug` before `dbt run` or `dbt test`.
+- **pyodbc Issues on Windows**: Ensure ODBC Driver 18 is installed and firewall allows port 1433.

@@ -1,23 +1,38 @@
+import os
 from kafka import KafkaProducer
 import requests
 import json
 import time
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment (.env at project root or current dir)
+load_dotenv()
 
 # Yelp API Configuration
-YELP_API_KEY = 'bOgkY5P2ZnDGKlehO07tAcbksCgQp1bLMdpPTHtxzdy8Bbv0t-mJTVbbN5ykGYULnjMOfVtRDNwo3Wr_K0qkdCk18I2tNEJec9azde7KSmBSSNOqwufkwK18BPCRZ3Yx'
-YELP_ENDPOINT = 'https://api.yelp.com/v3/businesses/search'
+YELP_API_KEY = os.getenv('YELP_API_KEY')
+if not YELP_API_KEY:
+    raise RuntimeError("Missing YELP_API_KEY environment variable")
+YELP_ENDPOINT = os.getenv('YELP_ENDPOINT', 'https://api.yelp.com/v3/businesses/search')
 HEADERS = {'Authorization': f'Bearer {YELP_API_KEY}'}
 
 # Kafka Configuration
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'
-KAFKA_TOPIC = 'yelp_business_data'
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
+KAFKA_TOPIC = os.getenv('KAFKA_TOPIC', 'yelp_business_data')
+DEFAULT_LOCATIONS = os.getenv('INGEST_LOCATIONS', 'New York,Los Angeles,Chicago,Houston,Phoenix').split(',')
+POLL_INTERVAL_SEC = int(os.getenv('POLL_INTERVAL_SEC', '60'))
+
+REQUEST_TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', '20'))
+MAX_RETRIES = int(os.getenv('MAX_RETRIES', '3'))
+BACKOFF_SEC = int(os.getenv('BACKOFF_SEC', '5'))
+
 
 def create_kafka_producer():
     return KafkaProducer(
-        bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
+        bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS.split(','),
         value_serializer=lambda x: json.dumps(x).encode('utf-8')
     )
+
 
 def fetch_yelp_data(location, offset=0):
     params = {
@@ -25,47 +40,54 @@ def fetch_yelp_data(location, offset=0):
         'limit': 50,
         'offset': offset
     }
-    
-    response = requests.get(
-        YELP_ENDPOINT,
-        headers=HEADERS,
-        params=params
-    )
-    
-    if response.status_code == 200:
-        return response.json()['businesses']
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = requests.get(
+                YELP_ENDPOINT,
+                headers=HEADERS,
+                params=params,
+                timeout=REQUEST_TIMEOUT
+            )
+            if response.status_code == 200:
+                data = response.json().get('businesses', [])
+                return data
+            elif response.status_code == 429:
+                # Rate limit: exponential backoff
+                sleep_time = BACKOFF_SEC * attempt
+                print(f"Rate limited (429). Sleeping {sleep_time}s (attempt {attempt})...")
+                time.sleep(sleep_time)
+            else:
+                print(f"HTTP {response.status_code}: {response.text}")
+                break
+        except requests.RequestException as e:
+            print(f"Request error (attempt {attempt}): {e}")
+            time.sleep(BACKOFF_SEC * attempt)
     return []
+
 
 def stream_to_kafka():
     producer = create_kafka_producer()
-    locations = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix']
+    locations = DEFAULT_LOCATIONS
     offset = 0
-    
     try:
         while True:
             for location in locations:
-                businesses = fetch_yelp_data(location, offset)
-                
+                businesses = fetch_yelp_data(location.strip(), offset)
+                if not businesses:
+                    print(f"No data fetched for {location} at offset {offset}")
                 for business in businesses:
-                    # Add timestamp and metadata
-                    business['ingestion_timestamp'] = datetime.now().isoformat()
+                    business['ingestion_timestamp'] = datetime.utcnow().isoformat()
                     business['source_location'] = location
-                    
-                    # Send to Kafka
-                    producer.send(
-                        KAFKA_TOPIC,
-                        value=business
-                    )
-                    print(f"Sent data for business: {business['name']}")
-                
-                # Increment offset for pagination
+                    producer.send(KAFKA_TOPIC, value=business)
+                    print(f"Sent business: {business.get('name')}")
                 offset = (offset + 50) % 1000
-                
-            # Wait before next batch
-            time.sleep(60)  # Respect Yelp API rate limits
-            
+            time.sleep(POLL_INTERVAL_SEC)
     except KeyboardInterrupt:
+        print("Stopping stream...")
+    finally:
+        producer.flush()
         producer.close()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     stream_to_kafka()

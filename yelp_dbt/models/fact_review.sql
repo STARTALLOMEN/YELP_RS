@@ -1,7 +1,5 @@
-WITH source_data AS (
-    SELECT *
-    FROM fact_review
-)
+{{ config(materialized='view') }}
+
 SELECT
     review_id,
     user_id,
@@ -12,4 +10,4 @@ SELECT
     cool,
     text,
     date
-FROM source_data;
+FROM {{ ref('fact_review_seed') }}

@@ -1,26 +1,119 @@
-version: '3'
-
-
+version: '3.8'
 
 services:
-
-  sleek-airflow:
-
-    image: airflow:latest
-
-    
-
-    volumes:
-
-      - ./airflow:/opt/airflow
-
-
-
+  # ----------------------------------------
+  # KAFKA CLUSTER
+  # ----------------------------------------
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: yelp_zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
     ports:
+      - "2181:2181"
+    networks:
+      - yelp_net
 
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: yelp_kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    networks:
+      - yelp_net
+
+  # ----------------------------------------
+  # AIRFLOW
+  # ----------------------------------------
+  postgres:
+    image: postgres:13
+    container_name: yelp_postgres
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    networks:
+      - yelp_net
+
+  airflow-init:
+    image: apache/airflow:2.9.1
+    container_name: yelp_airflow_init
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW_UID=50000
+    command: version
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        mkdir -p /sources/logs /sources/dags /sources/plugins
+        chown -R "50000:0" /sources/{logs,dags,plugins}
+        exec /entrypoint airflow db init && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+    volumes:
+      - ./dags:/sources/dags
+      - ./logs:/sources/logs
+      - ./plugins:/sources/plugins
+    networks:
+      - yelp_net
+
+  airflow-webserver:
+    image: apache/airflow:2.9.1
+    container_name: yelp_airflow_webserver
+    depends_on:
+      postgres:
+        condition: service_started
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+      - AIRFLOW_UID=50000
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    ports:
       - "8080:8080"
+    command: webserver
+    networks:
+      - yelp_net
 
+  airflow-scheduler:
+    image: apache/airflow:2.9.1
+    container_name: yelp_airflow_scheduler
+    depends_on:
+      postgres:
+        condition: service_started
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=true
+      - AIRFLOW__CORE__LOAD_EXAMPLES=false
+      - AIRFLOW_UID=50000
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    command: scheduler
+    networks:
+      - yelp_net
 
-
-    command: airflow standalone
-
+networks:
+  yelp_net:
+    driver: bridge

@@ -1,0 +1,45 @@
+erDiagram
+    %% SILVER LAYER DATA MODEL
+    
+    Business {
+        string business_id PK
+        string name
+        string city
+        float stars
+        int review_count
+        boolean has_parking "Flattened from attributes"
+        boolean has_wifi "Flattened from attributes"
+        string price_range "1-4 scale"
+        string categories_list
+        timestamp _ingest_timestamp
+    }
+
+    User {
+        string user_id PK
+        string name
+        float average_stars
+        int review_count
+        string elite_years "Comma separated"
+        timestamp _ingest_timestamp
+    }
+
+    Review {
+        string review_id PK
+        string user_id FK
+        string business_id FK
+        float stars
+        string text
+        date date
+        string sentiment_label "Added by NLP"
+        float sentiment_score "Added by NLP"
+    }
+
+    Checkin {
+        string business_id FK
+        string date_list
+    }
+
+    %% RELATIONSHIPS
+    User ||--o{ Review : writes
+    Business ||--o{ Review : receives
+    Business ||--o{ Checkin : has

@@ -1,0 +1,42 @@
+%% Mermaid architecture diagram
+flowchart LR
+    subgraph Source
+        YELP_API[Yelp API]
+    end
+
+    YELP_API -->|REST Poll / Stream| KAFKA[(Kafka Topic)]
+    KAFKA --> BRONZE[(Bronze Raw Storage)]
+
+    BRONZE -->|Spark ETL| SILVER[(Silver Curated Delta)]
+    SILVER -->|Aggregations| GOLD[(Gold Models)]
+
+    SILVER -->|Feature Build| FEATURE_STORE[(Feature Store)]
+    FEATURE_STORE --> MODEL_TRAIN[Model Training]
+    GOLD --> MODEL_TRAIN
+
+    MODEL_TRAIN --> REGISTRY[(Model Registry)]
+    REGISTRY --> API[FastAPI Service]
+
+    API --> CLIENTS[(Clients / UI / Batch Consumers)]
+
+    subgraph Orchestration & Quality
+        AIRFLOW[Airflow DAGs]
+        DQ[Data Quality (Planned)]
+        MON[Monitoring/Logging]
+    end
+
+    AIRFLOW --> BRONZE
+    AIRFLOW --> SILVER
+    AIRFLOW --> GOLD
+    DQ --> SILVER
+    DQ --> GOLD
+    MON --> API
+    MON --> KAFKA
+    MON --> SPARK[(Spark Jobs)]
+
+    subgraph Storage
+        BRONZE
+        SILVER
+        GOLD
+        FEATURE_STORE
+    end

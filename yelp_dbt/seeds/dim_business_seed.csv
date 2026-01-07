@@ -1,0 +1,6 @@
+business_id,name,address,city,state,postal_code,latitude,longitude,stars,review_count,is_open
+b001,Taco Palace,123 Main St,Santa Barbara,CA,93101,34.4208,-119.6982,4.5,120,1
+b002,Pizza Heaven,456 Oak Ave,Los Angeles,CA,90001,34.0522,-118.2437,4.0,85,1
+b003,Sushi Master,789 Pine Rd,San Diego,CA,92101,32.7157,-117.1611,4.8,200,1
+b004,Burger Joint,321 Elm St,San Francisco,CA,94102,37.7749,-122.4194,3.5,50,1
+b005,Thai Delight,654 Cedar Ln,Santa Barbara,CA,93103,34.4258,-119.7050,4.2,95,0
